@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+C:\Projects\Exjobb\geolocation\.metadata\.plugins\org.eclipse.jdt.core
+767072045.index
+715257351.index
+475098746.index

@@ -13,11 +13,12 @@
 <div class="container-fluid" ng-controller="mainCtrl">
     <h1>Geolocation</h1>
     Your location is: <br />
-    Latitude: {{position.coords.latitude}}<br />
-    Longitude: {{position.coords.longitude}} <br />
-    Timestamp: {{position.timestamp| date:'yyyy-MM-dd HH:mm:ss'}}<br />
+    Latitude: {{latitude}}<br />
+    Longitude: {{longitude}} <br />
+    Timestamp: {{timestamp| date:'yyyy-MM-dd HH:mm:ss'}}<br />
+    Time: {{time}} ms <br />
     <p class="text-center">
-        <button class="myButton" ng-click="getPos()">Get position</button>
+        <button class="btn btn-default" ng-click="getPos()">Get position</button>
     </p>
 </div>
 
